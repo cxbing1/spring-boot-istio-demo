@@ -1,4 +1,4 @@
-FROM openjdk:8u121-jdk
+FROM openjdk:8
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
   && echo 'Asia/Shanghai' >/etc/timezone
 ADD /target/spring-boot-istio-server-0.0.1-SNAPSHOT.jar /

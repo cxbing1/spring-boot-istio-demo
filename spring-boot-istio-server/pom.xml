@@ -84,9 +84,10 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <repository>wendev-docker.pkg.coding.net/develop/docker/${project.artifactId}
-                    </repository>
+                    <repository>${project.artifactId}</repository>
                     <tag>${project.version}</tag>
+                    <username>15871491302</username>
+                    <password>cheng1877936</password>
                     <buildArgs>
                         <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
                     </buildArgs>
