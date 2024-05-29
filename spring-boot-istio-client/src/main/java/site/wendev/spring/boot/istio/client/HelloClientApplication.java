@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author 江文
  * @date 2020/4/12 3:06 下午
+ * 测试注释
  */
 @SpringBootApplication
 public class HelloClientApplication {
